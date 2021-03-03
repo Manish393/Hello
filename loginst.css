@@ -1,0 +1,80 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css";
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(123.jpg) no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.loginbox{
+    width: 280px;
+    position: absolute;
+    top: 300px;
+    left:700px;
+    transform: translate(-50%,-50%);
+    color: rgb(135, 18, 231)
+}
+.loginbox h1{
+    float: left;
+    font-size: 40px;
+    border-bottom: 6px solid lightgreen;
+    margin-bottom: 50px;
+    padding: 13px;
+}
+ .tree{
+    width:100px;
+    height: 100px;
+    position: relative;
+    left: 10px;
+    
+    
+    
+}
+.textbox{
+    width:100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding:8px;
+    margin: 8px;
+    border-bottom: 1px solid;
+}
+.textbox i{
+    width: 26px;
+    float: left;
+    text-align: center;
+
+}
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+
+}
+.loginbox a{
+    text-decoration: none;
+    color:rgb(135, 18, 231);
+
+}
+.menubar {
+    background-color: green;
+    width: 100%;
+    text-align: center;
+   
+
+}
+.menubar ul li {
+    width: 150px;
+    margin: 7px;
+    padding: 7px;
+    
+    }
+.menubar ul {
+    list-style: none;
+    display: inline-flex;
+    color:white;
+    padding:8px;
+    margin: 10px;
+
+
+}
